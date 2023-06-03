@@ -173,3 +173,147 @@
 
 // 17-masala
 
+// let a = prompt("Enter a String");
+
+// if (a[0] === a[0].toUpperCase()){
+//     alert("Birinchi harf katta")
+// }else{
+//     alert("Birinchi harf katta emas")
+// }
+
+
+// 18-masala
+
+// let a = +prompt("Bahoni kiriting");
+
+
+// if (a<=5 && a>=2){
+//     if (a===2){
+//         alert('Stipendiya -> 0')
+//     }else if(a === 3){
+//         alert('Stipendiya -> 0')
+//     }else if(a === 4){
+//         alert('Stipendiya -> 420.000 so\'m')
+//     }else{
+//         alert('Stipendiya -> 550.000 so\'m')
+//     }
+// } else{
+//     alert("Bunday baholash tizimi mavjud emas")
+// }
+
+// 19-masala
+
+// let a = +prompt("Son kiriting");
+
+// if (a >= 0 && a % 2 == 0){
+//     alert("Juft musbat");
+// }else if(a < 0 && a % 2 == 0){
+//     alert("Juft manfiy");
+// }else if(a < 0 && a % 2 == 1){
+//     alert("Toq manfiy");
+// }else if (a >= 0 && a % 2 == 1){
+//     alert("Toq musbat");
+// }
+
+// 20-masala
+
+// let a = +prompt("Yilingizni kiriting");
+
+// let k = 2023;
+
+// alert(k-a)
+
+// 21-masala
+
+// let a = +prompt("A Sonni kiriting");
+// let b = +prompt("B Sonni kiriting");
+// let c = +prompt("C Sonni kiriting");
+
+// if (a <= b && b <= c && a <= c){
+//     alert(true);
+// }else{
+//     alert(false);
+// }
+
+// 22-masala
+
+// let a = +prompt("A Sonni kiriting");
+// let b = +prompt("B Sonni kiriting");
+
+// if (a % 2 == 1 || b % 2 == 1){
+//     alert("Kiritilgan sonlardan kamida bittasi toq");
+// }else{
+//     alert("Kiritilgan sonlardan bittasi ham toq emas");
+// }
+
+// 23-masala
+
+// let a = +prompt("A Sonni kiriting");
+// let b = +prompt("B Sonni kiriting");
+// let c = +prompt("C Sonni kiriting");
+
+// if (a % 2 == 0 && b % 2 == 0 && c % 2 == 0){
+//     alert(true);
+// }else{
+//     alert(false);
+// }
+
+
+// 24-masala
+
+// let a = +prompt("A Sonni kiriting");
+// let b = +prompt("B Sonni kiriting");
+// let c = +prompt("C Sonni kiriting");
+
+// if (a % 2 == 0 || b % 2 == 0 || c % 2 == 0){
+//     alert("Bittasi musbat son");
+// }else{
+//     alert("Bittasi ham musbat son emas");
+// }
+
+// 25-masala
+
+// let a = Math.floor(Math.random() * 898) + 101;
+// a = String(a);
+// let b = a[0];
+// for (let i = 1; i < a.length; i++){
+//     if (b == a[i]){
+//         console.log(false)
+//         break
+//     }
+//     else{
+//         console.log(true)
+//     }
+// }
+
+// 26-masala
+
+// let a = Math.floor(Math.random() * 898) + 101;
+// let b = String(a);
+// // b = '123'
+// if ((b[1]-b[0] === 1) && (b[2] - b[1] === 1)){
+//     console.log(true);
+// }else{
+//     console.log(false);
+// }
+
+
+
+// let a = "salom"
+// let k = [];
+// let b = 0;
+
+// b = a[0];
+// a[0] = a[a.length-1]
+// a[a.length-1] = b
+
+// console.log(a[0], a[a.length-1])
+
+// for (let i=0; i<a.length; i++){
+//     k.push(a[i])
+// }
+
+// console.log(k)
+
+
+
